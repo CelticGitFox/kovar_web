@@ -1,0 +1,80 @@
+@media (min-width:1900px){
+
+/* ------------------- Diseños Globales --------------------------*/
+
+
+    *{padding:0;margin:0;box-sizing: border-box;}
+
+/* ------------------- Diseño Langing page ----------------------- */
+
+/* --------------- Diseño del Header ---------------- */
+
+header{background-color:#fff; box-shadow: 0px 0px 10px #000;}
+header .navbar-collapse{display:flex; flex-direction:column;}
+header .navbar-collapse .top-minihead{width:101.7%;display:flex;flex-direction:row;background-color:#002d57;}
+header .navbar-collapse .top-minihead .left-side{color:#fff; display:flex; flex-direction:row; justify-content: flex-start; align-items: center;}
+header .navbar-collapse .top-minihead .left-side img{width:3.5%; }
+header .navbar-collapse .top-minihead .left-side h6{font-size:2em; padding-top:0.1em;}
+header .navbar-collapse .top-minihead .right-side{color:#fff; display:flex; flex-direction:row;justify-content: flex-end; align-items: center;     }
+header .navbar-collapse .top-minihead .right-side img{width:20%;}
+header .navbar-collapse .top-minihead .right-side a{text-align:center;}
+
+header .navbar-collapse .bottom-minihead{width:100%;display:flex; flex-direction: row;  }
+header .navbar-collapse .bottom-minihead .navbar-nav{width:100%;display:flex; flex-direction: row; justify-content:space-around ; align-items:center; }
+header .navbar-collapse .bottom-minihead a{color:#000; text-decoration:none;}
+header .navbar-collapse .bottom-minihead img{width:50%; padding-top:0.5em;}
+header .navbar-collapse .bottom-minihead .dropdown-menu{position:absolute;top:auto;}
+
+/* --------------- Diseño Banners ------------------ */
+
+.banners1{width:100%; height:55em; background-image:url(../img/Banners/banner\ 1-02.png); background-size:100%; background-repeat: no-repeat; display:flex; flex-direction:row; justify-content: flex-end;}
+.banners1 .banners1-block-r{width:50%;display:flex; flex-direction: column; justify-content: center; align-items: flex-end;}
+.banners1 .banners1-block-r h1{font-size:8em; width:100%; border-bottom:solid 1px #000; }
+.banners1 .banners1-block-r p{width:74%;}
+.banners1 .banners1-block-r a{width:70%; font-size:1.3em;}
+.banners1 .banners1-block-r button{width:100%;color:#fff; border:unset; padding:0.5em; background-color:#002d57}
+
+.banners2{width:100%; height:35em; background-image:url(../img/Banners/Banners\ 2.png); background-size:100%; background-repeat: no-repeat; display:flex; flex-direction:row; justify-content: flex-start;}
+.banners2 .banners2-block-l{width:100%;display:flex; flex-direction: column; justify-content: center; align-items: flex-start; }
+.banners2 .banners2-block-l h1{font-size:8em; width:100%; border-bottom:solid 1px #000; }
+.banners2 .banners2-block-l p{width:50%;}
+.banners2 .banners2-block-l a{width:70%; font-size:1.3em;}
+.banners2 .banners2-block-l button{width:100%;color:#fff; border:solid 1px #395280; padding:0.5em; background-color:unset}
+.banners2 .banners2-block-r{width:100%; display:flex; flex-direction: column; justify-content: center;}
+.banners2 .banners2-block-r img{width:50%; display:block; margin: 0 auto; position:relative; bottom:5em;}
+
+.banners3{width:100%; background-color:#002d57;padding:1em; padding-bottom:5em; display:flex; flex-direction:column; justify-content: center; align-items: center;}
+.banners3  h1{color:#fff; padding:0.5em;}
+.banners3 .banners3-cards{display:flex; flex-direction: row; justify-content: space-around;}
+.banners3 .banners3-cards .cards{background-color:#fff; border-radius:0em 0em 1em 1em;}
+.banners3 .banners3-cards .cards img{width:107%; position:relative; right:0.95em;}
+.banners3 .banners3-cards .cards:nth-child(2) img{height:19.5em;}
+.banners3 .banners3-cards .cards:nth-child(3) img{ height:19.5em;}
+.banners3 .banners3-cards .cards .cards-text{text-align:center; padding:1.6em;}
+
+.banners4{width:100%; padding:2em; display:flex; flex-direction:column; justify-content: center; align-items: center; background-color:pink;}
+.banners4 .banners-minibanners-l{width:100%;height:20em;}
+.banners4 .banners4-minibanners-l:nth-child(1){padding:1.5em; background-image: url(../img/Imagenes/Categorias-02.png);background-size:100%;}
+.banners4 .banners4-minibanners-l:nth-child(1) h1{font-size:5em;}
+.banners4 .banners4-minibanners-l:nth-child(1) p{font-size:1.3em;}
+.banners4 .banners4-minibanners-l:nth-child(1) a{width:100%;}
+.banners4 .banners4-minibanners-l:nth-child(1) button{width:24%; padding:0.5em; background-color:#395280; border:unset; color:#fff;}
+
+
+
+.banners4 .banners4-minibanners-l:nth-child(3){padding:1.5em;background-image: url(../img/Imagenes/Categorias-04.png);}
+.banners4 .banners4-minibanners-l:nth-child(3) h1{font-size:5em;}
+.banners4 .banners4-minibanners-l:nth-child(3) p{font-size:1.3em;}
+.banners4 .banners4-minibanners-l:nth-child(3) a{width:100%;}
+.banners4 .banners4-minibanners-l:nth-child(3) button{width:24%; padding:0.5em; background-color:unset; border:solid 1px #395280; color:#395280;}
+
+
+
+
+.banners4 .banners4-minibanners-l:nth-child(1),
+.banners4 .banners4-minibanners-r:nth-child(2),
+.banners4 .banners4-minibanners-l:nth-child(3),
+.banners4 .banners4-minibanners-r:nth-child(4){box-shadow:0px 0px 5px #000;}
+
+
+}
