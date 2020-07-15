@@ -13,7 +13,7 @@ header{background-color:#fff; box-shadow: 0px 0px 10px #000;}
 header .navbar-collapse{display:flex; flex-direction:column;}
 header .navbar-collapse .top-minihead{width:101.7%;display:flex;flex-direction:row;background-color:#002d57;}
 header .navbar-collapse .top-minihead .left-side{color:#fff; display:flex; flex-direction:row; justify-content: flex-start; align-items: center;}
-header .navbar-collapse .top-minihead .left-side img{width:3.5%;  }
+header .navbar-collapse .top-minihead .left-side img{width:3.5%; }
 header .navbar-collapse .top-minihead .left-side h6{font-size:2em; padding-top:0.1em;}
 header .navbar-collapse .top-minihead .right-side{color:#fff; display:flex; flex-direction:row;justify-content: flex-end; align-items: center;     }
 header .navbar-collapse .top-minihead .right-side img{width:20%; }
@@ -166,7 +166,23 @@ footer{width:100%;}
 .nosotros-ban2 button{width:20%; padding:1em; margin-top:1em;border:solid 1px #395280; background-color:unset;   }
 
 
+/* ------------------- Diseño de la sección Contactos --------------------- */
 
+.contactos-ban1{width:100%; background-color:#fff; display:flex; flex-direction: row; justify-content: center;margin-top:0em;z-index:-2;}
+.contactos-ban1 .contactos-ban1-block-l h1{width:110%;position:relative; right:1em;margin-top:1em;padding:0.3em; color:#fff;background-color:#002d57; text-align:center;} 
+.contactos-ban1 .contactos-ban1-block-l h5{text-align:justify;}
+.contactos-ban1 .contactos-ban1-block-l p {font-size:1.5em;}
+.contactos-ban1 .contactos-ban1-block-img img{width:103.3%;}
+
+.contactos-ban2{width:100%;height:50em; background-color:#dbdbdb; padding-top:5em;  }
+.contactos-ban2-bg{width:100%; height:40em;background-color:#002d57; display:flex; flex-direction:row; justify-content:center;}
+.contactos-ban2-block-l{display:flex; flex-direction:column;justify-content:center; align-items: center;}
+.contactos-ban2-block-l form{width:60%;height:50em;background-color:#fff; padding:1em; position: absolute; box-shadow:0px 0px 5px #000;}
+.contactos-ban2-block-l fieldset{display:flex; flex-direction:column; justify-content:center;}
+
+.contactos-ban2-block-r .contactos-ban2-iconos{display:flex; flex-direction:row; justify-content:flex-start; align-items:center;}
+.contactos-ban2-block-r .contactos-ban2-iconos p{color:#fff;}
+.contactos-ban2-block-r .contactos-ban2-iconos img{width:10%;}
 
 
 
