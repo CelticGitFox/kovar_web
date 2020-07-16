@@ -36,6 +36,7 @@ header .navbar-collapse .bottom-minihead .navbar-nav{width:100%;display:flex; fl
 header .navbar-collapse .bottom-minihead a{width:12%;font-size:1.2em; color:#000; text-decoration:none;}
 header .navbar-collapse .bottom-minihead button{width:100%;color:#fff;border:unset; padding:0.3em;background-color:#335779;}
 header .navbar-collapse .bottom-minihead img{width:70%; padding-top:0.5em; display:block; margin:0 auto;}
+header .navbar-collapse .bottom-minihead .dropdown-menu a{width:100%;}
 header .navbar-collapse .bottom-minihead .dropdown-menu{position:absolute;top:auto;}
 
 /* --------------- Diseño Banners ------------------ */
@@ -67,8 +68,7 @@ header .navbar-collapse .bottom-minihead .dropdown-menu{position:absolute;top:au
 .banners3 .banners3-cards .cards .cards-text h2{padding-top:1em;font-family:"light-title";}
 .banners3 .banners3-cards .cards .cards-text p{font-size:1.3em;}
 
-.banners4{width:100%; padding:2em; display:flex; flex-direction:column; justify-content: center; align-items: center; }
-.banners4 .banners-minibanners-l{width:100%;height:auto;}
+.banners4{width:100%; height:80em; padding:2em; display:flex; flex-direction:column; justify-content: center; align-items: center; background-color:pink;}
 
 .banners4 .banners4-minibanners-l:nth-child(1),
 .banners4 .banners4-minibanners-r:nth-child(2),
@@ -80,30 +80,29 @@ header .navbar-collapse .bottom-minihead .dropdown-menu{position:absolute;top:au
 .banners4 .banners4-minibanners-l:nth-child(3) h2,
 .banners4 .banners4-minibanners-r:nth-child(4) h2{font-family:"sub-title"; color:#002d57;}
 
-.banners4 .banners4-minibanners-l:nth-child(1){padding:3em; background-image: url(../img/Imagenes/Categorias-02.png);background-repeat:no-repeat;background-size:100%;}
-.banners4 .banners4-minibanners-l:nth-child(1) h2{font-size:5em;}
-.banners4 .banners4-minibanners-l:nth-child(1) p{font-size:1.3em; color:#808080;}
-.banners4 .banners4-minibanners-l:nth-child(1) a{width:100%;font-size:1.3em;}
-.banners4 .banners4-minibanners-l:nth-child(1) button{width:24%; padding:0.5em; background-color:#395280; border:unset; color:#fff;}
+.banners4 .banners4-minibanners-l{width:100%; height:20em;padding:3em; background-image: url(../img/Imagenes/Categorias-02.png);background-repeat:no-repeat; background-size:100%;}
+.banners4 .banners4-minibanners-l h2{font-size:5em;}
+.banners4 .banners4-minibanners-l p{font-size:1.3em; color:#808080;}
+.banners4 .banners4-minibanners-l a{width:100%;font-size:1.3em;}
+.banners4 .banners4-minibanners-l button{width:24%; padding:0.5em; background-color:#395280; border:unset; color:#fff;}
 
-.banners4 .banners4-minibanners-r:nth-child(2){display:flex; flex-direction:column; justify-content:center; align-items:flex-end;padding:3em;background-image: url(../img/Imagenes/Categorias-03.png);background-repeat:no-repeat;}
+.banners4 .banners4-minibanners-r:nth-child(2){width:100%;display:flex; flex-direction:column; justify-content:center; align-items:flex-end;padding:3em;background-image: url(../img/Imagenes/Categorias-03.png);background-size:100%;background-repeat:no-repeat;}
 .banners4 .banners4-minibanners-r:nth-child(2) h2{font-size:3em;}
 .banners4 .banners4-minibanners-r:nth-child(2) p{font-size:1.3em; color:#808080;}
 .banners4 .banners4-minibanners-r:nth-child(2) a{width:25%;  font-size:1.3em;}
 .banners4 .banners4-minibanners-r:nth-child(2) button{width:100%; padding:0.5em; background-color:unset; border:solid 1px #395280; color:#395280;}
 
-.banners4 .banners4-minibanners-l:nth-child(3){padding:3em;background-image: url(../img/Imagenes/Categorias-04.png);background-repeat:no-repeat; background-position:right}
+.banners4 .banners4-minibanners-l:nth-child(3){width:100%;padding:3em;background-image: url(../img/Imagenes/Categorias-04.png);background-size:100%;background-repeat:no-repeat; background-position:right}
 .banners4 .banners4-minibanners-l:nth-child(3) h2{font-size:3em;}
 .banners4 .banners4-minibanners-l:nth-child(3) p{width:35%;font-size:1.3em; color:#808080;}
 .banners4 .banners4-minibanners-l:nth-child(3) a{width:100%;font-size:1.3em;}
 .banners4 .banners4-minibanners-l:nth-child(3) button{width:24%; padding:0.5em; background-color:unset; border:solid 1px #395280; color:#395280;}
 
-.banners4 .banners4-minibanners-r:nth-child(4){display:flex; flex-direction:column; justify-content:center; align-items:flex-end;padding:3em;background-image: url(../img/Imagenes/Categorias-05.png);background-repeat:no-repeat;}
+.banners4 .banners4-minibanners-r:nth-child(4){width:100%;display:flex; flex-direction:column; justify-content:center; align-items:flex-end;padding:3em;background-image: url(../img/Imagenes/Categorias-05.png);background-size:100%;background-repeat:no-repeat;}
 .banners4 .banners4-minibanners-r:nth-child(4) h2{font-size:3em;}
 .banners4 .banners4-minibanners-r:nth-child(4) p{font-size:1.3em; color:#808080;}
 .banners4 .banners4-minibanners-r:nth-child(4) a{width:25%;  font-size:1.3em;}
 .banners4 .banners4-minibanners-r:nth-child(4) button{width:100%; padding:0.5em; background-color:unset; border:solid 1px #395280; color:#395280;}
-
 
 .banners5{width:100%;padding:2em; display:flex; flex-direction:column; justify-content: center; align-items: center; background-color:#f8f8f8;}
 .banners5 h1{color:#002d57;}
@@ -160,25 +159,25 @@ section{width:100%; font-family:"sub-title";}
 .productos-ban3 .productos-ban3-minibanners-l:nth-child(3) h2,
 .productos-ban3 .productos-ban3-minibanners-r:nth-child(4) h2{font-family:"sub-title"; color:#002d57;}
 
-.productos-ban3 .productos-ban3-minibanners-l:nth-child(1){padding:3em; background-image: url(../img/Imagenes/Categorias-02.png);background-repeat:no-repeat;background-size:100%;}
+.productos-ban3 .productos-ban3-minibanners-l:nth-child(1){width:100%; height:18em;padding:3em; background-image: url(../img/Imagenes/Categorias-02.png);background-repeat:no-repeat;background-size:100%;}
 .productos-ban3 .productos-ban3-minibanners-l:nth-child(1) h2{font-size:5em;}
 .productos-ban3 .productos-ban3-minibanners-l:nth-child(1) p{font-size:1.3em; color:#808080;}
 .productos-ban3 .productos-ban3-minibanners-l:nth-child(1) a{width:100%;font-size:1.3em;}
 .productos-ban3 .productos-ban3-minibanners-l:nth-child(1) button{width:24%; padding:0.5em; background-color:#395280; border:unset; color:#fff;}
 
-.productos-ban3 .productos-ban3-minibanners-r:nth-child(2){display:flex; flex-direction:column; justify-content:center; align-items:flex-end;padding:3em;background-image: url(../img/Imagenes/Categorias-03.png);background-repeat:no-repeat;}
+.productos-ban3 .productos-ban3-minibanners-r:nth-child(2){width:100%; height:18em;display:flex; flex-direction:column; justify-content:center; align-items:flex-end;padding:3em;background-image: url(../img/Imagenes/Categorias-03.png);background-size:100%;background-repeat:no-repeat;}
 .productos-ban3 .productos-ban3-minibanners-r:nth-child(2) h2{font-size:3em;}
 .productos-ban3 .productos-ban3-minibanners-r:nth-child(2) p{font-size:1.3em; color:#808080;}
 .productos-ban3 .productos-ban3-minibanners-r:nth-child(2) a{width:25%;  font-size:1.3em;}
 .productos-ban3 .productos-ban3-minibanners-r:nth-child(2) button{width:100%; padding:0.5em; background-color:unset; border:solid 1px #395280; color:#395280;}
 
-.productos-ban3 .productos-ban3-minibanners-l:nth-child(3){padding:3em;background-image: url(../img/Imagenes/Categorias-04.png);background-repeat:no-repeat; background-position:right}
+.productos-ban3 .productos-ban3-minibanners-l:nth-child(3){width:100%; height:18em;padding:3em;background-image: url(../img/Imagenes/Categorias-04.png);background-size:100%;background-repeat:no-repeat; background-position:right}
 .productos-ban3 .productos-ban3-minibanners-l:nth-child(3) h2{font-size:3em;}
 .productos-ban3 .productos-ban3-minibanners-l:nth-child(3) p{width:35%;font-size:1.3em; color:#808080;}
 .productos-ban3 .productos-ban3-minibanners-l:nth-child(3) a{width:100%;font-size:1.3em;}
 .productos-ban3 .productos-ban3-minibanners-l:nth-child(3) button{width:24%; padding:0.5em; background-color:unset; border:solid 1px #395280; color:#395280;}
 
-.productos-ban3 .productos-ban3-minibanners-r:nth-child(4){display:flex; flex-direction:column; justify-content:center; align-items:flex-end;padding:3em;background-image: url(../img/Imagenes/Categorias-05.png);background-repeat:no-repeat;}
+.productos-ban3 .productos-ban3-minibanners-r:nth-child(4){width:100%; height:18em;display:flex; flex-direction:column; justify-content:center; align-items:flex-end;padding:3em;background-image: url(../img/Imagenes/Categorias-05.png); background-size:100%; background-repeat:no-repeat;}
 .productos-ban3 .productos-ban3-minibanners-r:nth-child(4) h2{font-size:3em;}
 .productos-ban3 .productos-ban3-minibanners-r:nth-child(4) p{font-size:1.3em; color:#808080;}
 .productos-ban3 .productos-ban3-minibanners-r:nth-child(4) a{width:25%;  font-size:1.3em;}
@@ -193,28 +192,37 @@ section{width:100%; font-family:"sub-title";}
 
 .nosotros-ban2{width:100%;padding:3em; display:flex; flex-direction:column; justify-content:center; align-items:center;}
 .nosotros-ban2 .nosotros-ban2-block-c{width:70%;margin:1em;padding:4em; border-bottom:solid 2px #395280;text-align:justify;}
-.nosotros-ban2 .nosotros-ban2-block-c h2{width:80%;color:#395280; padding-bottom:1em; margin:0 auto;  }
-.nosotros-ban2 .nosotros-ban2-block-c p{width:80%;color:#4d4d4d; font-size:1.3em;  margin:0 auto; }
-.nosotros-ban2 button{width:20%;color:#395280; padding:1em; margin-top:3em;border:solid 1px #395280; background-color:unset;   }
+.nosotros-ban2 .nosotros-ban2-block-c h2{width:80%;color:#395280; padding-bottom:1em; margin:0 auto; font-family:"sub-title";}
+.nosotros-ban2 .nosotros-ban2-block-c p{width:80%;color:#4d4d4d; font-size:1.3em;  margin:0 auto; font-family:"regular-title";}
+.nosotros-ban2 button{width:20%;font-size:1.6em;color:#395280; padding:0.5em; margin-top:3em;border:solid 1px #395280; background-color:unset;   }
 
 
 /* ------------------- Diseño de la sección Contactos --------------------- */
 
 .contactos-ban1{width:100%; background-color:#fff; display:flex; flex-direction: row; justify-content: center;margin-top:0em;z-index:-2;}
-.contactos-ban1 .contactos-ban1-block-l h1{width:110%;position:relative; right:1em;margin-top:1em;padding:0.3em; color:#fff;background-color:#002d57; text-align:center;} 
-.contactos-ban1 .contactos-ban1-block-l h5{text-align:justify;}
-.contactos-ban1 .contactos-ban1-block-l p {font-size:1.5em;}
+.contactos-ban1 .contactos-ban1-block-l h1{width:110%;position:relative; right:1em;margin-top:1em; margin-bottom:1em;padding:0.3em; padding-left:5em; color:#fff;background-color:#002d57; font-family:"big-title"; font-style:italic; text-align:left;} 
+.contactos-ban1 .contactos-ban1-block-l h5{width:80%;padding-left:5.5em;color:#395280;  font-size:1.8em;text-align:justify;}
+.contactos-ban1 .contactos-ban1-block-l p {width:70%;font-size:1.5em; position:relative; line-height:2em; left:6.5em; text-align:justify; }
 .contactos-ban1 .contactos-ban1-block-img img{width:103.3%;}
 
 .contactos-ban2{width:100%;height:50em; background-color:#dbdbdb; padding-top:5em;  }
 .contactos-ban2-bg{width:100%; height:40em;background-color:#002d57; display:flex; flex-direction:row; justify-content:center;}
 .contactos-ban2-block-l{display:flex; flex-direction:column;justify-content:center; align-items: center;}
-.contactos-ban2-block-l form{width:60%;height:50em;background-color:#fff; padding:1em; position: absolute; box-shadow:0px 0px 5px #000;}
+.contactos-ban2-block-l form{width:60%;height:45em;background-color:#fff; padding:1.5em; position: absolute; box-shadow:0px 0px 5px #000;}
+.contactos-ban2-block-l form h1{color:#51557c;font-family:"sub-title";}
 .contactos-ban2-block-l fieldset{display:flex; flex-direction:column; justify-content:center;}
+.contactos-ban2-block-l fieldset label{font-family:"regular-title";}
+.contactos-ban2-block-l fieldset input{width:100%;border:unset; border-bottom:solid 1px #002d57;}
+.contactos-ban2-block-l fieldset select{width:100%; padding:0.5em; border-radius:0.5em; border:solid 1px #002d57; margin-bottom:1.3em;}
+.contactos-ban2-block-l fieldset textarea{width:100%; padding:0.5em; border-radius:0.5em;}
+.contactos-ban2-block-l button{width:50%;color:#fff; font-size:1.3em;padding:0.3em;display:block; margin:0 auto; background-color:#002d57; border:unset; border-radius:0.2em; margin-top:1em;}
 
-.contactos-ban2-block-r .contactos-ban2-iconos{display:flex; flex-direction:row; justify-content:flex-start; align-items:center;}
-.contactos-ban2-block-r .contactos-ban2-iconos p{color:#fff;}
+.contactos-ban2-block-r{display:flex; flex-direction:column; justify-content: space-around;}
+.contactos-ban2-block-r .contactos-ban2-iconos{display:flex; flex-direction:row; justify-content:center; align-items:center;}
+.contactos-ban2-block-r .contactos-ban2-iconos p{width:80%; color:#fff; font-family:"regular-title";}
 .contactos-ban2-block-r .contactos-ban2-iconos img{width:10%;}
+.contactos-ban2-block-r .social-media{display:flex; flex-direction: row; justify-content: space-evenly ;}
+.contactos-ban2-block-r .social-media img{width:7%;}
 
 /* ------------------- Diseño de la sección Pumps ------------------- */
 
