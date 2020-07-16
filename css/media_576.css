@@ -283,26 +283,27 @@
     
     /* ------------------- Diseño de la Sección Water pumps ------------------- */
     
-    .water-ban1{width:100%; display:flex; flex-direction:row; justify-content: center;}
-    .water-ban1 .water-ban1-block-l{position:relative;left:10em; top:5em;}
-    .water-ban1 .water-ban1-block-l h1{font-size:5em;color:#002d57;padding-bottom:0.3em;font-family:"big-title";}
-    .water-ban1 .water-ban1-block-l p{width:70%;font-size:1.6em; color:#4d4d4d;text-align:justify;font-family:"regular-title";}
+    .water-ban1{width:100%; display:flex; flex-direction:column; justify-content: center;}
+    .water-ban1 .water-ban1-block-l{position:relative;left:0em; top:2em;}
+    .water-ban1 .water-ban1-block-l h1{font-size:3em;color:#002d57;text-align:center;padding-bottom:0.3em;font-family:"big-title";}
+    .water-ban1 .water-ban1-block-l p{width:100%;font-size:1.4em; color:#4d4d4d;text-align:justify;font-family:"regular-title";}
+    .water-ban1 .water-ban1-block-img img{width:100%; margin-top:2em;}
+
+    .water-ban2{width:100%; display:flex; flex-direction:column-reverse; justify-content:center; padding-bottom:1em;}
+    .water-ban2 .water-ban2-block-img img{width:100%;display:block; margin:0 auto;}
+    .water-ban2 .water-ban2-block-r{margin-top:2em;display:flex; flex-direction: column; justify-content:space-around;} 
+    .water-ban2 .water-ban2-block-r h1{text-align:center;color:#002d57;font-family:"big-title"; padding-bottom:0.5em;}
+    .water-ban2 .water-ban2-block-r p{width:100%;font-size:1.2em; text-align:justify;font-family:"light-title";}
     
-    .water-ban2{width:100%; display:flex; flex-direction:row; justify-content:center; padding-bottom:1em;}
-    .water-ban2 .water-ban2-block-img img{display:block; margin:0 auto;}
-    .water-ban2 .water-ban2-block-r{display:flex; flex-direction: column; justify-content:space-around;} 
-    .water-ban2 .water-ban2-block-r h1{color:#002d57;font-family:"big-title"; padding-bottom:1em;}
-    .water-ban2 .water-ban2-block-r p{width:70%;font-size:1.2em; text-align:justify;font-family:"light-title";}
-    
-    .water-ban3{width:100%; background-color:#eae7e7;padding:3em; padding-bottom:5em; display:flex; flex-direction:column; justify-content: center; align-items: center;}
-    .water-ban3  h1{color:#002d57; padding:0.5em; font-family:"big-title"; padding-bottom:1em;}
-    .water-ban3 .water-ban3-cards{height:35em;display:flex; flex-direction: row; justify-content: space-evenly;}
-    .water-ban3 .water-ban3-cards .cards{box-shadow:0px 0px 10px #cbc8c8;   background-color:#002d57; border-radius:0.5em 0.5em 0.5em 0.5em;}
-    .water-ban3 .water-ban3-cards .cards:nth-child(1) img{width:107.5%; height:auto; position:relative; right:0.95em;border-radius:0.5em 0.5em 0em 0em;}
-    .water-ban3 .water-ban3-cards .cards:nth-child(2) img{width:107.5%; height:19.5em; position:relative; transform:scaleX(-1); -moz-transform: scaleX(-1); right:0.95em; border-radius:0.5em 0.5em 0em 0em;}
+    .water-ban3{width:100%; background-color:#eae7e7;padding:1em; padding-bottom:3em; display:flex; flex-direction:column; justify-content: center; align-items: center;}
+    .water-ban3  h1{font-size:2em;color:#002d57; padding:0.5em; font-family:"big-title"; padding-bottom:1em;}
+    .water-ban3 .water-ban3-cards{height:auto;display:flex; flex-direction: column; justify-content: space-around;}
+    .water-ban3 .water-ban3-cards .cards{margin-bottom:1em;box-shadow:0px 0px 10px #cbc8c8; background-color:#002d57; border-radius:0.5em 0.5em 0.5em 0.5em;}
+    .water-ban3 .water-ban3-cards .cards:nth-child(1) img{width:110%; height:auto; position:relative; right:0.95em;border-radius:0.5em 0.5em 0em 0em;}
+    .water-ban3 .water-ban3-cards .cards:nth-child(2) img{width:110%; height:15em; position:relative; transform:scaleX(-1); -moz-transform: scaleX(-1); right:0.95em; border-radius:0.5em 0.5em 0em 0em;}
     .water-ban3 .water-ban3-cards .cards .cards-text{color:#000;position:relative; bottom:0em;text-align:center; padding:1.6em;}
-    .water-ban3 .water-ban3-cards .cards .cards-text h2{color:#fff; font-size:2.8em; font-family:"sub-title";}
-    .water-ban3 .water-ban3-cards .cards .cards-text button{width:70%; color:#fff;font-size:1.5em; padding:0.5em;border:solid 1px #fff;background-color:unset;}
+    .water-ban3 .water-ban3-cards .cards .cards-text h2{color:#fff; font-size:2em; font-family:"sub-title";}
+    .water-ban3 .water-ban3-cards .cards .cards-text button{width:80%; color:#fff;font-size:1.3em; padding:0.5em;border:solid 1px #fff;background-color:unset;}
     .water-ban3 .water-ban3-cards .cards:nth-child(1) .cards-text button{margin-top:1em;}
     .water-ban3 .water-ban3-cards .cards:nth-child(2) .cards-text button{margin-top:1em;}
     
