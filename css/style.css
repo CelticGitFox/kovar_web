@@ -20,6 +20,7 @@
 /* --------------- Diseño del Header ---------------- */
 
 header{background-color:#fff; box-shadow: 0px 0px 10px #000;}
+header .navbar .navbar-brand{display:none;}
 header .navbar-collapse{display:flex; flex-direction:column;}
 header .navbar-collapse .top-minihead{width:101.7%;display:flex;flex-direction:row;background-color:#002d57;}
 header .navbar-collapse .top-minihead .left-side{color:#fff; display:flex; flex-direction:row; justify-content: flex-start; align-items: center;}
