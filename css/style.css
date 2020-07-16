@@ -227,36 +227,51 @@ section{width:100%; font-family:"sub-title";}
 /* ------------------- Diseño de la sección Pumps ------------------- */
 
 .pumps-ban1{width:100%;height:21em;display:flex; flex-direction:column; justify-content: center; background-image:url(../img/Banners/banners-35.png);}
-.pumps-ban1 .pumps-ban1-block-l{width:100%; color:#fff;}
+.pumps-ban1 .pumps-ban1-block-l{width:80%;position:relative; left:5em; color:#fff;}
+.pumps-ban1 .pumps-ban1-block-l h1{font-size:7em; font-family:"big-title"; }
+.pumps-ban1 .pumps-ban1-block-l p{font-size:2em; font-family:"sub-title";}
 
-.pumps-ban2{width:100%; background-color:#fff;padding:3em; padding-bottom:5em; display:flex; flex-direction:column; justify-content: center; align-items: center;}
+.pumps-ban2{width:100%; background-color:#fff;padding:3em; padding-bottom:3em; display:flex; flex-direction:column; justify-content: center; align-items: center;}
 .pumps-ban2  h1{color:#fff; padding:0.5em;}
 .pumps-ban2 .pumps-ban2-cards{display:flex; flex-direction: row; justify-content: space-around;}
-.pumps-ban2 .pumps-ban2-cards .cards{box-shadow:0px 0px 10px #000;   background-color:#002d57; border-radius:0em 0em 1em 1em;}
-.pumps-ban2 .pumps-ban2-cards .cards img{width:107%; position:relative; right:0.95em;} 
-.pumps-ban2 .pumps-ban2-cards .cards:nth-child(1) img{width:109%; height:20em; position:relative; right:0.95em;}
-.pumps-ban2 .pumps-ban2-cards .cards:nth-child(2) img{width:109%;height:20em;}
-.pumps-ban2 .pumps-ban2-cards .cards:nth-child(3) img{width:109%; height:20em; transform: scaleX(-1);-webkit-transform: scaleX(-1);}
+.pumps-ban2 .pumps-ban2-cards .cards{box-shadow:0px 0px 10px #d9d9d9;   background-color:#002d57; border-radius:0em 0em 1em 1em;}
+.pumps-ban2 .pumps-ban2-cards .cards img{width:107%; position:relative; right:0.96em;} 
+.pumps-ban2 .pumps-ban2-cards .cards:nth-child(1) img{width:107.5%; height:20em; position:relative; }
+.pumps-ban2 .pumps-ban2-cards .cards:nth-child(2) img{width:107%;height:20em;}
+.pumps-ban2 .pumps-ban2-cards .cards:nth-child(3) img{width:107.6%; height:20em; transform: scaleX(-1);-webkit-transform: scaleX(-1);}
 .pumps-ban2 .pumps-ban2-cards .cards .cards-text{color:#fff;text-align:center; padding:1.6em;}
+.pumps-ban2 .pumps-ban2-cards .cards .cards-text h2{padding-top:1em;font-family:"sub-title";}
+.pumps-ban2 .pumps-ban2-cards .cards .cards-text button{width:80%;font-size:1.3em;color:#fff; padding:0.5em;border:solid 1px #fff; background-color:unset;}
 
-.pumps-ban3{width:100%; height:15em;}
-.pumps-ban3 .pumps-ban3-block-l{z-index:5;}
-.bg-container{width:50em; height:35em;z-index:-2;left:59em; top:55em;position:absolute;background-color:#d9d9d9;}
+.pumps-ban3{width:100%; height:auto;display:flex; flex-direction:column; justify-content:center; align-items:center;}
+.pumps-ban3 .pumps-ban3-block-l{width:60%;z-index:0;}
+.pumps-ban3 .pumps-ban3-block-l h1{font-size:5em;color:#51557c;font-family:"sub-title";}
+.pumps-ban3 .pumps-ban3-block-l h6{font-size:1.7em;color:#808080;font-family:"sub-title";}
+.pumps-ban3 .pumps-ban3-block-l p{width:90%;font-size:1.3em;color:#4d4d4d;font-family:"regular-title";}
+.bg-container{width:50em; height:38em;z-index:-2;left:59em; top:55em;position:absolute;background-color:#d9d9d9;}
 
-.pumps-ban4{width:100%;z-index:5; padding:0em; display:flex; flex-direction:row; justify-content:center;}
-.pumps-ban4 .pumps-ban4-block-l,.pumps-ban4 .pumps-ban4-block-r{margin:1em;padding:2em; border:solid 1px #000; border-radius:1em;}
+.pumps-ban4{width:100%;z-index:0; padding:0em; display:flex; flex-direction:row; justify-content:center;}
+.pumps-ban4 .pumps-ban4-block-l, .pumps-ban4 .pumps-ban4-block-r{width:40%;margin:1em;padding:3em; background-color:#fff; border:solid 1px #002d57; border-radius:1em;}
+.pumps-ban4 .pumps-ban4-block-l h3, .pumps-ban4 .pumps-ban4-block-r h3{color:#002d57; text-align:center;}
+.pumps-ban4 .pumps-ban4-block-l p, .pumps-ban4 .pumps-ban4-block-r p{color:#4d4d4d; text-align:justify;}
 
-.pumps-ban5{width:100%; padding:0em; display:flex; flex-direction:row; justify-content:center;}
-.pumps-ban5 .pumps-ban5-block-l,.pumps-ban5 .pumps-ban5-block-r{margin:1em;padding:2em; border:solid 1px #000; border-radius:1em;}
+.pumps-ban5{width:100%;z-index:0; padding:0em; display:flex; flex-direction:row; justify-content:center;}
+.pumps-ban5 .pumps-ban5-block-l, .pumps-ban5 .pumps-ban5-block-r{width:40%;margin:1em;padding:3em; background-color:#fff; border:solid 1px #002d57; border-radius:1em;}
+.pumps-ban5 .pumps-ban5-block-l h3, .pumps-ban5 .pumps-ban5-block-r h3{color:#002d57; text-align:center;}
+.pumps-ban5 .pumps-ban5-block-l p, .pumps-ban5 .pumps-ban5-block-r p{color:#4d4d4d; text-align:justify;}
 
 .pumps-ban6{width:100%; background-color:#eae7e7;padding:3em; padding-bottom:5em; display:flex; flex-direction:column; justify-content: center; align-items: center;}
-.pumps-ban6  h1{color:#000; padding:0.5em;}
-.pumps-ban6 .pumps-ban6-cards{display:flex; flex-direction: row; justify-content: space-evenly;}
-.pumps-ban6 .pumps-ban6-cards .cards{box-shadow:0px 0px 10px #000;   background-color:#fff; border-radius:0em 0em 1em 1em;}
-.pumps-ban6 .pumps-ban6-cards .cards:nth-child(1) img{width:100%; height:auto; position:relative; right:0.95em;}
-.pumps-ban6 .pumps-ban6-cards .cards:nth-child(2) img{width:100%; height:auto; position:relative; right:0.95em;}
-.pumps-ban6 .pumps-ban6-cards .cards .cards-text{color:#000;position:relative; bottom:6em;text-align:center; padding:1.6em;}
-
+.pumps-ban6  h1{color:#002d57; padding:0.5em; font-family:"big-title"; padding-bottom:1em;}
+.pumps-ban6 .pumps-ban6-cards{height:50em;display:flex; flex-direction: row; justify-content: space-evenly;}
+.pumps-ban6 .pumps-ban6-cards .cards{box-shadow:0px 0px 10px #cbc8c8;   background-color:#fff; border-radius:0.5em 0.5em 0.5em 0.5em;}
+.pumps-ban6 .pumps-ban6-cards .cards:nth-child(1) img{width:105%; height:auto; position:relative; right:0.95em;border-radius:0.5em 1em 0em 0em;}
+.pumps-ban6 .pumps-ban6-cards .cards:nth-child(2) img{width:105%; height:auto; position:relative; right:0.8em; border-radius:0.5em 1em 0em 0em;}
+.pumps-ban6 .pumps-ban6-cards .cards .cards-text{color:#000;position:relative; bottom:15em;text-align:center; padding:1.6em;}
+.pumps-ban6 .pumps-ban6-cards .cards .cards-text h2{color:#51557c; font-size:2.8em; font-family:"sub-title";}
+.pumps-ban6 .pumps-ban6-cards .cards .cards-text h6{color:#808080; font-size:1.5em; font-family:"sub-title";}
+.pumps-ban6 .pumps-ban6-cards .cards .cards-text button{width:70%;font-size:1.5em; padding:0.5em;background-color:unset;}
+.pumps-ban6 .pumps-ban6-cards .cards:nth-child(1) .cards-text button{margin-top:2em;}
+.pumps-ban6 .pumps-ban6-cards .cards:nth-child(2) .cards-text button{margin-top:1em;}
 
 /* ------------------- Diseño de la Sección Water pumps ------------------- */
 
