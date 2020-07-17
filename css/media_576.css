@@ -271,7 +271,7 @@
     .pumps-ban6{width:100%; background-color:#eae7e7;padding:1em; padding-bottom:1em; display:flex; flex-direction:column; justify-content: center; align-items: center;}
     .pumps-ban6  h1{font-size:2em;color:#002d57; padding:0.5em; font-family:"big-title"; padding-bottom:1em;}
     .pumps-ban6 .pumps-ban6-cards{height:auto;display:flex; flex-direction: column; justify-content: space-evenly;}
-    .pumps-ban6 .pumps-ban6-cards .cards{height:31em;margin-bottom:1em;box-shadow:0px 0px 10px #cbc8c8; background-color:#fff; border-radius:0.5em 0.5em 0.5em 0.5em;}
+    .pumps-ban6 .pumps-ban6-cards .cards{height:10em;margin-bottom:1em;box-shadow:0px 0px 10px #cbc8c8; background-color:#fff; border-radius:0.5em 0.5em 0.5em 0.5em;}
     .pumps-ban6 .pumps-ban6-cards .cards:nth-child(1) img{width:110%; height:auto; position:relative; right:0.95em;border-radius:0.5em 1em 0em 0em;}
     .pumps-ban6 .pumps-ban6-cards .cards:nth-child(2) img{width:110%; height:auto; position:relative; right:0.95em; border-radius:0.5em 1em 0em 0em;}
     .pumps-ban6 .pumps-ban6-cards .cards .cards-text{color:#000;position:relative; bottom:11em;text-align:center; padding:1.6em;}
