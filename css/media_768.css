@@ -42,8 +42,8 @@
     header .navbar-collapse .bottom-minihead .dropdown{width:100%;}
     header .navbar-collapse .bottom-minihead button{width:20%;color:#fff;border:unset; padding:0.3em;background-color:#335779;}
     header .navbar-collapse .bottom-minihead img{width:70%; padding-top:0.5em; display:none; margin:0 auto;}
-    header .navbar-collapse .bottom-minihead .dropdown-menu a{width:100%; color:#000;}
-    header .navbar-collapse .bottom-minihead .dropdown-menu{position:absolute;top:auto;}
+    header .navbar-collapse .bottom-minihead .dropdown-menu a{width:100%; color:#fff;}
+    header .navbar-collapse .bottom-minihead .dropdown-menu{position:absolute;top:auto; background-color:#002d57;}
     
     /* --------------- Diseño Banners ------------------ */
     
@@ -106,7 +106,7 @@
     
     .banners4 .banners4-minibanners-r:nth-child(4){width:100%;display:flex; flex-direction:column; justify-content:center; align-items:flex-end;padding:3em;background-image: url(../img/Imagenes/Categorias-05.png);background-size:170%;background-position:45% 50%;background-repeat:no-repeat;}
     .banners4 .banners4-minibanners-r:nth-child(4) h2{font-size:1.4em;}
-    .banners4 .banners4-minibanners-r:nth-child(4) p{width:40%;font-size:1em; color:#808080;}
+    .banners4 .banners4-minibanners-r:nth-child(4) p{width:40%;text-align:right;font-size:1em; color:#808080;}
     .banners4 .banners4-minibanners-r:nth-child(4) a{width:40%; font-size:1em;}
     .banners4 .banners4-minibanners-r:nth-child(4) button{width:100%; padding:0.5em; background-color:unset; border:solid 1px #395280; color:#395280;}
     
@@ -133,8 +133,8 @@
     #home-footer .top-footer{width:100%;padding:1em; border-bottom:solid 1px #000; display:flex; flex-direction: row; justify-content: space-evenly; align-items: center; background-color:#e7e7e7;}
     #home-footer .top-footer a{font-size:1em;color:#4d4d4d; text-decoration:none;}
     #home-footer .mid-footer {width:100%; text-align:center; background-color:#e7e7e7;}
-    #home-footer .mid-footer .mid-list{display:flex; flex-direction: column; justify-content: space-around;}
-    #home-footer .mid-footer .mid-list a{width:100%; font-size:1em;color:#395280;text-decoration:none;padding:1em;margin-top:1em;border-bottom:solid 1px #292e5b;} 
+    #home-footer .mid-footer .mid-list{display:flex; flex-direction: column; justify-content: space-around; align-items:center;}
+    #home-footer .mid-footer .mid-list a{width:80%; font-size:1.3em;color:#395280;text-decoration:none;padding:1em;margin-top:1em;border-bottom:solid 1px #292e5b;} 
     #home-footer .mid-footer img{width:30%;margin-top:1em; margin-bottom:1em;}
     #home-footer .bot-footer {width:100%;padding:1em; text-align:left; background-color:#002d57; display:flex; flex-direction:row; justify-content:space-around; align-items: center;}
     #home-footer .bot-footer .derechos{color:#fff; padding-top:1em; padding-left:0em;font-style:italic; }
@@ -149,9 +149,9 @@
     .productos-ban1 .productos-ban1-block-l h1{width:50%;font-size:3em;  font-family:"big-title"; }
     .productos-ban1 .productos-ban1-block-l p{width:50%;font-size:1em;text-align:justify; font-family:"regular-title"; }
     
-    .productos-ban2{width:100%;height:auto; display:flex; flex-direction:row; justify-content:center; align-items: center; }
+    .productos-ban2{width:100%;height:10em; display:flex; flex-direction:row; justify-content:center; align-items: center; }
     .productos-ban2 .productos-ban2-block-img{display:initial;}
-    .productos-ban2 .productos-ban2-block-img img{width:100%;position:relative; bottom:3.5em; z-index:-2;}
+    .productos-ban2 .productos-ban2-block-img img{width:100%;position:relative; bottom:1.5em; z-index:-2;}
     .productos-ban2 .productos-ban2-block-l{width:100%;}
     .productos-ban2 .productos-ban2-block-l p{width:100%;font-size:1em;padding-top:1em; text-align:justify; font-family:"regular-title";}
     
@@ -269,7 +269,7 @@
     .pumps-ban5 .pumps-ban5-block-l h3, .pumps-ban5 .pumps-ban5-block-r h3{color:#002d57; text-align:center;}
     .pumps-ban5 .pumps-ban5-block-l p, .pumps-ban5 .pumps-ban5-block-r p{color:#4d4d4d; text-align:justify;}
     
-    .pumps-ban6{width:100%; background-color:#eae7e7;padding:1em; padding-bottom:1em; display:flex; flex-direction:column; justify-content: center; }
+    .pumps-ban6{width:100%; background-color:#eae7e7;padding:1em; padding-bottom:1em; display:flex; flex-direction:column; justify-content: center; align-items:center; }
     .pumps-ban6  h1{font-size:2em;color:#002d57; padding:0.5em; font-family:"big-title"; padding-bottom:1em;}
     .pumps-ban6 .pumps-ban6-cards{height:auto;display:flex; flex-direction: column; justify-content: space-evenly; align-items:center;}
     .pumps-ban6 .pumps-ban6-cards .cards{height:10em;margin-bottom:1em;box-shadow:0px 0px 10px #cbc8c8; background-color:#fff; border-radius:0.5em 0.5em 0.5em 0.5em;}
@@ -348,10 +348,10 @@
     .valve-ban6  h1{color:#002d57; padding:0.5em; font-family:"big-title"; padding-bottom:1em;}
     .valve-ban6 .valve-ban6-cards{height:auto;display:flex; flex-direction: column; justify-content: space-evenly; align-items:center;}
     .valve-ban6 .valve-ban6-cards .cards{height:31em;margin-bottom:1em;box-shadow:0px 0px 10px #cbc8c8;   background-color:#fff; border-radius:0.5em 0.5em 0.5em 0.5em;}
-    .valve-ban6 .valve-ban6-cards .cards:nth-child(1) img{width:105%; height:auto; position:relative; right:0.95em;border-radius:0.5em 1em 0em 0em;}
-    .valve-ban6 .valve-ban6-cards .cards:nth-child(2) img{width:105%; height:auto; position:relative; right:0.95em; border-radius:0.5em 1em 0em 0em;}
-    .valve-ban6 .valve-ban6-cards .cards .cards-text{color:#000;position:relative; bottom:10em;text-align:center; padding:1.6em;}
-    .valve-ban6 .valve-ban6-cards .cards .cards-text h2{color:#51557c; font-size:3em; font-family:"sub-title";}
+    .valve-ban6 .valve-ban6-cards .cards:nth-child(1) img{width:105%; height:35em; position:relative; right:0.95em;border-radius:0.5em 1em 0em 0em;}
+    .valve-ban6 .valve-ban6-cards .cards:nth-child(2) img{width:105%; height:35em; position:relative; right:0.95em; border-radius:0.5em 1em 0em 0em;}
+    .valve-ban6 .valve-ban6-cards .cards .cards-text{color:#000;position:relative; bottom:8em;text-align:center; padding:1.6em;}
+    .valve-ban6 .valve-ban6-cards .cards .cards-text h2{color:#51557c; font-size:5em; font-family:"sub-title";}
     .valve-ban6 .valve-ban6-cards .cards .cards-text h6{color:#808080; font-size:1.2em; font-family:"sub-title";}
     .valve-ban6 .valve-ban6-cards .cards .cards-text button{width:80%; color:#002d57;font-size:1.2em; padding:0.5em;border:solid 1px #002d57;background-color:unset;}
     .valve-ban6 .valve-ban6-cards .cards:nth-child(1) .cards-text button{margin-top:1em;}
