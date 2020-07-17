@@ -68,10 +68,11 @@ header .navbar-collapse .bottom-minihead .dropdown-menu{position:absolute;top:au
 .banners3 .banners3-cards{display:flex; flex-direction: row; justify-content: space-around;}
 .banners3 .banners3-cards .cards{background-color:#fff; border-radius:0em 0em 1em 1em;}
 .banners3 .banners3-cards .cards img{width:107%; position:relative; right:0.95em;}
+.banners3 .banners3-cards .cards:nth-child(1) img{height:initial;}
 .banners3 .banners3-cards .cards:nth-child(2) img{height:19.5em;}
 .banners3 .banners3-cards .cards:nth-child(3) img{ height:19.5em;}
 .banners3 .banners3-cards .cards .cards-text{text-align:center;color:#002d57; padding:1.6em;}
-.banners3 .banners3-cards .cards .cards-text h2{padding-top:1em;font-family:"light-title";}
+.banners3 .banners3-cards .cards .cards-text h2{font-size:2em;padding-top:1em;font-family:"light-title";}
 .banners3 .banners3-cards .cards .cards-text p{font-size:1.3em;}
 
 .banners4{width:100%; height:80em; padding:2em; display:flex; flex-direction:column; justify-content: center; align-items: center; }
