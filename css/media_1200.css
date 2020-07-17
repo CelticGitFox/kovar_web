@@ -145,16 +145,16 @@
     
     /* -------------------------- Diseño de Productos ----------------------------- */
     
-    .productos-ban1{width:100%; height:37em; padding:3em; background-image: url(../img/Banners/banners-34.png); background-size:100%; background-position:right; background-repeat:no-repeat;}
-    .productos-ban1 .productos-ban1-block-l{width:30%;color:#fff; position:relative; left:8em; top:3em;}
-    .productos-ban1 .productos-ban1-block-l h1{font-size:7em; font-family:"big-title"; }
+    .productos-ban1{width:100%; height:24em; padding:3em; background-image: url(../img/Banners/banners-34.png); background-size:100%; background-position:right; background-repeat:no-repeat;}
+    .productos-ban1 .productos-ban1-block-l{width:45%;color:#fff; position:relative; left:0em; top:0em;}
+    .productos-ban1 .productos-ban1-block-l h1{font-size:5em; font-family:"big-title"; }
     .productos-ban1 .productos-ban1-block-l p{width:100%;font-size:1.1em;font-family:"regular-title"; }
     
-    .productos-ban2{width:100%;height:20em; display:flex; flex-direction:row; justify-content:center; align-items: center; }
+    .productos-ban2{width:100%;height:15em; display:flex; flex-direction:row; justify-content:center; align-items: center; }
     .productos-ban2 .productos-ban2-block-img{display:initial;}
     .productos-ban2 .productos-ban2-block-img img{width:85%;position:relative; bottom:2em; z-index:-2;}
     .productos-ban2 .productos-ban2-block-l{width:30%;}
-    .productos-ban2 .productos-ban2-block-l p{width:50%;font-size:1.3em; text-align:justify; font-family:"regular-title";}
+    .productos-ban2 .productos-ban2-block-l p{width:70%;font-size:1.3em; text-align:justify; font-family:"regular-title";}
     
     .productos-ban3{width:100%; padding:2em; display:flex; flex-direction:column; justify-content: center; align-items: center; }
     .productos-ban3 .banners-minibanners-l{width:100%;height:auto;}
@@ -169,38 +169,38 @@
     .productos-ban3 .productos-ban3-minibanners-l:nth-child(3) h2,
     .productos-ban3 .productos-ban3-minibanners-r:nth-child(4) h2{font-family:"sub-title"; color:#002d57;}
     
-    .productos-ban3 .productos-ban3-minibanners-l:nth-child(1){width:100%; height:18em;padding:3em; background-image: url(../img/Imagenes/Categorias-02.png);background-repeat:no-repeat;background-size:100%;}
+    .productos-ban3 .productos-ban3-minibanners-l:nth-child(1){width:100%; height:18em;padding:3em; background-image: url(../img/Imagenes/Categorias-02.png);background-repeat:no-repeat;background-size:128%;}
     .productos-ban3 .productos-ban3-minibanners-l:nth-child(1) h2{font-size:5em;}
     .productos-ban3 .productos-ban3-minibanners-l:nth-child(1) p{font-size:1.3em; color:#808080;}
     .productos-ban3 .productos-ban3-minibanners-l:nth-child(1) a{width:100%;font-size:1.3em;}
     .productos-ban3 .productos-ban3-minibanners-l:nth-child(1) button{width:24%; padding:0.5em; background-color:#395280; border:unset; color:#fff;}
     
-    .productos-ban3 .productos-ban3-minibanners-r:nth-child(2){width:100%; height:18em;display:flex; flex-direction:column; justify-content:center; align-items:flex-end;padding:3em;background-image: url(../img/Imagenes/Categorias-03.png);background-size:100%;background-repeat:no-repeat;}
+    .productos-ban3 .productos-ban3-minibanners-r:nth-child(2){width:100%; height:18em;display:flex; flex-direction:column; justify-content:center; align-items:flex-end;padding:3em;background-image: url(../img/Imagenes/Categorias-03.png);background-size:125%;background-position:50% 50%;background-repeat:no-repeat;}
     .productos-ban3 .productos-ban3-minibanners-r:nth-child(2) h2{font-size:3em;}
     .productos-ban3 .productos-ban3-minibanners-r:nth-child(2) p{font-size:1.3em; color:#808080;}
     .productos-ban3 .productos-ban3-minibanners-r:nth-child(2) a{width:25%;  font-size:1.3em;}
     .productos-ban3 .productos-ban3-minibanners-r:nth-child(2) button{width:100%; padding:0.5em; background-color:unset; border:solid 1px #395280; color:#395280;}
     
-    .productos-ban3 .productos-ban3-minibanners-l:nth-child(3){width:100%; height:18em;padding:3em;background-image: url(../img/Imagenes/Categorias-04.png);background-size:100%;background-repeat:no-repeat; background-position:right}
+    .productos-ban3 .productos-ban3-minibanners-l:nth-child(3){width:100%; height:18em;padding:3em;background-image: url(../img/Imagenes/Categorias-04.png);background-size:128%;background-repeat:no-repeat; background-position:70% 50%}
     .productos-ban3 .productos-ban3-minibanners-l:nth-child(3) h2{font-size:3em;}
-    .productos-ban3 .productos-ban3-minibanners-l:nth-child(3) p{width:30%;font-size:1.3em; color:#808080;}
+    .productos-ban3 .productos-ban3-minibanners-l:nth-child(3) p{width:45%;font-size:1.3em; color:#808080;}
     .productos-ban3 .productos-ban3-minibanners-l:nth-child(3) a{width:100%;font-size:1.3em;}
     .productos-ban3 .productos-ban3-minibanners-l:nth-child(3) button{width:24%; padding:0.5em; background-color:unset; border:solid 1px #395280; color:#395280;}
     
-    .productos-ban3 .productos-ban3-minibanners-r:nth-child(4){width:100%; height:18em;display:flex; flex-direction:column; justify-content:center; align-items:flex-end;padding:3em;background-image: url(../img/Imagenes/Categorias-05.png); background-size:100%; background-repeat:no-repeat;}
+    .productos-ban3 .productos-ban3-minibanners-r:nth-child(4){width:100%; height:18em;display:flex; flex-direction:column; justify-content:center; align-items:flex-end;padding:3em;background-image: url(../img/Imagenes/Categorias-05.png); background-size:128%; background-repeat:no-repeat;}
     .productos-ban3 .productos-ban3-minibanners-r:nth-child(4) h2{font-size:3em;}
-    .productos-ban3 .productos-ban3-minibanners-r:nth-child(4) p{width:30%;font-size:1.3em; color:#808080;}
+    .productos-ban3 .productos-ban3-minibanners-r:nth-child(4) p{width:50%; text-align:right;font-size:1.3em; color:#808080;}
     .productos-ban3 .productos-ban3-minibanners-r:nth-child(4) a{width:25%;  font-size:1.3em;}
     .productos-ban3 .productos-ban3-minibanners-r:nth-child(4) button{width:100%; padding:0.5em; background-color:unset; border:solid 1px #395280; color:#395280;}
     
     /* ------------------- Diseño de la sección Nosotros ---------------------- */
     
-    .nosotros-ban1{width:100%; height:43em; padding:3em; background-image: url(../img/Banners/Banner\ Nosotros-Contacto-06.png); background-size:100%; background-position:right; background-repeat:no-repeat; display:flex; flex-direction:column; justify-content:center; align-items: center;}
+    .nosotros-ban1{width:100%; height:28em; padding:3em; background-image: url(../img/Banners/Banner\ Nosotros-Contacto-06.png); background-size:100%; background-position:right; background-repeat:no-repeat; display:flex; flex-direction:column; justify-content:center; align-items: center;}
     .nosotros-ban1 .nosotros-ban1-block-c{color:#fff;}
-    .nosotros-ban1 .nosotros-ban1-block-c h1{width:45%;font-size:4em;display:block; margin:0 auto; text-align:center; padding-bottom:0.5em; font-family:"big-title";}
-    .nosotros-ban1 .nosotros-ban1-block-c p{width:60%;font-size:1.8em;display:block; margin:0 auto; text-align:center;}
+    .nosotros-ban1 .nosotros-ban1-block-c h1{width:60%;font-size:4em;display:block; margin:0 auto; text-align:center; padding-bottom:0.5em; font-family:"big-title";}
+    .nosotros-ban1 .nosotros-ban1-block-c p{width:80%;font-size:1.8em;display:block; margin:0 auto; text-align:center;}
     
-    .nosotros-ban2{width:100%;padding:3em; display:flex; flex-direction:column; justify-content:center; align-items:center;}
+    .nosotros-ban2{width:100%;padding:2em; display:flex; flex-direction:column; justify-content:center; align-items:center;}
     .nosotros-ban2 .nosotros-ban2-block-c{width:70%;margin:1em;padding:4em; border-bottom:solid 2px #395280;text-align:justify;}
     .nosotros-ban2 .nosotros-ban2-block-c h2{width:80%;color:#395280; padding-bottom:1em; margin:0 auto; font-family:"sub-title";}
     .nosotros-ban2 .nosotros-ban2-block-c p{width:80%;color:#4d4d4d; font-size:1.3em;  margin:0 auto; font-family:"regular-title";}
@@ -210,28 +210,28 @@
     /* ------------------- Diseño de la sección Contactos --------------------- */
     
     .contactos-ban1{width:100%; background-color:#fff; display:flex; flex-direction: row; justify-content: center;margin-top:0em;z-index:-2;}
-    .contactos-ban1 .contactos-ban1-block-l h1{width:110%;position:relative; right:1em;margin-top:1em; margin-bottom:1em;padding:0.3em; padding-left:5em; color:#fff;background-color:#002d57; font-family:"big-title"; font-style:italic; text-align:left;} 
-    .contactos-ban1 .contactos-ban1-block-l h5{width:80%;padding-left:5.5em;color:#395280;  font-size:1.8em;text-align:justify;}
-    .contactos-ban1 .contactos-ban1-block-l p {width:70%;font-size:1.5em; position:relative; line-height:2em; left:6.5em; text-align:justify; }
+    .contactos-ban1 .contactos-ban1-block-l h1{width:112%;position:relative; right:1em;margin-top:1em; margin-bottom:1em;padding:0.3em; padding-left:5em; color:#fff;background-color:#002d57; font-family:"big-title"; font-style:italic; text-align:left;} 
+    .contactos-ban1 .contactos-ban1-block-l h5{width:90%;padding-left:2em;color:#395280;  font-size:1.8em;text-align:justify;}
+    .contactos-ban1 .contactos-ban1-block-l p {width:80%;font-size:1.5em; position:relative; line-height:2em; left:2.5em; text-align:justify; }
     .contactos-ban1 .contactos-ban1-block-img {display:initial;}
-    .contactos-ban1 .contactos-ban1-block-img img{width:103.3%;}
+    .contactos-ban1 .contactos-ban1-block-img img{width:103.3%; height:38em;}
     
     .contactos-ban2{width:100%;height:50em; background-color:#dbdbdb; padding-top:5em;  }
     .contactos-ban2-bg{width:100%; height:40em;background-color:#002d57; display:flex; flex-direction:row; justify-content:center;}
     .contactos-ban2-block-l{display:flex; flex-direction:column;justify-content:center; align-items: center;}
-    .contactos-ban2-block-l form{width:60%;height:45em;background-color:#fff; padding:1.5em; position: absolute; box-shadow:0px 0px 5px #000;}
+    .contactos-ban2-block-l form{width:80%;height:45em;background-color:#fff; padding:1.5em; position: absolute; box-shadow:0px 0px 5px #000;}
     .contactos-ban2-block-l form h1{color:#51557c;font-family:"sub-title";}
     .contactos-ban2-block-l fieldset{display:flex; flex-direction:column; justify-content:center;}
     .contactos-ban2-block-l fieldset label{font-family:"regular-title";}
     .contactos-ban2-block-l fieldset input{width:100%;border:unset; border-bottom:solid 1px #002d57;}
-    .contactos-ban2-block-l fieldset select{width:100%; padding:0.5em; border-radius:0.5em; border:solid 1px #002d57; margin-bottom:1.3em;}
+    .contactos-ban2-block-l fieldset select{width:100%; padding:0.5em; border-radius:0.5em; border:solid 1px #002d57; margin-bottom:2em;}
     .contactos-ban2-block-l fieldset textarea{width:100%; padding:0.5em; border-radius:0.5em;}
-    .contactos-ban2-block-l button{width:50%;color:#fff; font-size:1.3em;padding:0.3em;display:block; margin:0 auto; background-color:#002d57; border:unset; border-radius:0.2em; margin-top:1em;}
+    .contactos-ban2-block-l button{width:50%;color:#fff; font-size:1.3em;padding:0.3em;display:block; margin:0 auto; background-color:#002d57; border:unset; border-radius:0.2em; margin-top:3em;}
     
     .contactos-ban2-block-r{display:flex; flex-direction:column; justify-content: space-around;}
     .contactos-ban2-block-r .contactos-ban2-iconos{display:flex; flex-direction:row; justify-content:center; align-items:center;}
     .contactos-ban2-block-r .contactos-ban2-iconos p{width:80%; color:#fff; font-family:"regular-title";}
-    .contactos-ban2-block-r .contactos-ban2-iconos img{width:10%;}
+    .contactos-ban2-block-r .contactos-ban2-iconos img{width:15%;}
     .contactos-ban2-block-r .social-media{display:flex; flex-direction: row; justify-content: space-evenly ;}
     .contactos-ban2-block-r .social-media img{width:7%;}
     
@@ -368,7 +368,7 @@
     footer .top-footer a{font-size:1.3em;color:#fff; text-decoration:none;}
     footer .mid-footer {width:100%; text-align:center; background-color:#e7e7e7;}
     footer .mid-footer .mid-list{display:flex; flex-direction: row; justify-content: space-around;}
-    footer .mid-footer .mid-list a{width:100%;color:#395280;text-decoration:none;padding:1em;margin-top:1em;border-bottom:unset;border-right:solid 1px #000;} 
+    footer .mid-footer .mid-list a{width:100%;font-size:0.75em;color:#395280;text-decoration:none;padding:1em;margin-top:1em;border-bottom:unset;border-right:solid 1px #000;} 
     footer .mid-footer img{width:10%; margin-bottom:1em;}
     footer .bot-footer {width:100%;padding:1em; text-align:left; background-color:#002d57; display:flex; flex-direction:row; justify-content:space-around; align-items: center;}
     footer .bot-footer .derechos{color:#fff; padding-top:1em; padding-left:5em;font-style:italic; }
